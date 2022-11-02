@@ -3,3 +3,42 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1,nav {
+  text-align: center;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: cornflowerblue;
+}
+
+section#featured-property figcaption{
+  text-align: center;
+  font-size: small;
+}
+
+section#featured-property p{
+  padding: 10px;
+  margin: auto;
+  width: 800px;
+  text-align:center;
+}
+
+section#details div{
+  float:left;
+  background-color: cornflowerblue;
+  text-align: center;
+  width:25vw;
+}
+
+section#details{
+  width:max-content;
+  margin:auto;
+}
